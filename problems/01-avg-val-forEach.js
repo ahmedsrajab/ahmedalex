@@ -21,9 +21,9 @@ let avgVal = function(arr) {
   arr.forEach(num=> sum += num / arr.length)
   return sum;
 };
-console.log(avgVal([5, 10])); // 7.5
-console.log(avgVal([3, 7, 2, 1, 2])); // 3
-console.log(avgVal([])); // null
+// console.log(avgVal([5, 10])); // 7.5
+// console.log(avgVal([3, 7, 2, 1, 2])); // 3
+// console.log(avgVal([])); // null
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
 try {

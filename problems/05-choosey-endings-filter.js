@@ -27,7 +27,7 @@ console.log(chooseyEndings(17, 'ily'));
 
 let chooseyEndings = function(words, suffix) {
   if (!Array.isArray(words)) return [];
-  return words.filter(word=> words.endsWith(suffix))
+  return words.filter(word=> word.endsWith(suffix))
 
 };
 console.log(chooseyEndings(['family', 'hound', 'catalyst', 'fly', 'timidly', 'bond'], 'ly'));
